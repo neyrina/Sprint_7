@@ -13,6 +13,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
 public class CourierLoginTest {
+
     private CourierClient courierClient;
     private CourierPojo randomCourier;
     private Integer id;

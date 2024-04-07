@@ -4,6 +4,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import pojo.CourierPojo;
 
 public class CourierRequestGenerator {
+
     public static CourierPojo getRandomCourier() {
         CourierPojo courierRequest = new CourierPojo();
         courierRequest.setLogin(RandomStringUtils.randomAlphabetic(10));

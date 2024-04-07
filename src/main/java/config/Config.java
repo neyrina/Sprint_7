@@ -6,4 +6,5 @@ public class Config {
     public static String getBaseUrl() {
         return BASE_URL;
     }
+
 }

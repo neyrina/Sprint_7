@@ -8,6 +8,7 @@ import static org.apache.http.HttpStatus.SC_OK;
 import static org.hamcrest.Matchers.notNullValue;
 
 public class OrderListTest {
+
     private OrderClient orderClient;
 
     @Before
