@@ -10,8 +10,6 @@ import java.util.Date;
 public class OrderRequestGenerator {
     public static OrderPojo getCreateOrder(String[] color) {
         OrderPojo orderPojo = new OrderPojo();
-        Date date = new Date();
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         orderPojo.setFirstName(RandomStringUtils.randomAlphabetic(10));
         orderPojo.setLastName(RandomStringUtils.randomAlphabetic(10));
         orderPojo.setAddress(RandomStringUtils.randomAlphabetic(10));

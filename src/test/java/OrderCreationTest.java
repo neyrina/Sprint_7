@@ -12,6 +12,7 @@ import static org.hamcrest.Matchers.notNullValue;
 
 @RunWith(Parameterized.class)
 public class OrderCreationTest {
+
     private OrderClient orderClient;
     private String[] color;
 

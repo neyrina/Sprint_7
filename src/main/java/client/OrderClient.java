@@ -6,7 +6,7 @@ import pojo.OrderPojo;
 
 import static io.restassured.RestAssured.given;
 
-public class OrderClient extends InitialRequest{
+public class OrderClient extends InitialRequest {
     public static final String ORDER = "/api/v1/orders";
 
     @Step("Размещение заказа")

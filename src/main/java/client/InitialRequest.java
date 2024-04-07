@@ -1,9 +1,9 @@
 package client;
 
+import config.Config;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
-import config.Config;
 
 public class InitialRequest {
     public RequestSpecification getDefaultRequestSpec() {

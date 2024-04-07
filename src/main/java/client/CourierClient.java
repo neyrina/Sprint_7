@@ -17,7 +17,7 @@ public class CourierClient extends InitialRequest {
         return given().spec(getDefaultRequestSpec()).body(courierPojo).post(COURIER).then();
     }
 
-    @Step("Логинимся под курьером")
+    @Step("Авторизуемся под курьером")
     public ValidatableResponse loginCourier(LoginPojo loginPojo) {
         return given().spec(getDefaultRequestSpec()).body(loginPojo).post(COURIER_LOGIN).then();
     }
